@@ -106,13 +106,10 @@ img {
     transition: ease-in-out .5s;
 }
 
-#icon:active {
+#icon:hover, #icon:active, #icon::selection {
     background: none;
 }
 
-#icon::selection {
-    background: none;
-}
 
 #icon:hover {
     transform: scale(1.03);
