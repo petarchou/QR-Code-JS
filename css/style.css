@@ -61,7 +61,6 @@ body {
 }
 
 .main-container {
-    margin: 24px;
     padding: 16px;
     display: flex;
     flex-flow: row wrap;
@@ -105,6 +104,10 @@ img {
 #icon {
     margin-bottom: 20px;
     transition: ease-in-out .5s;
+}
+
+#icon:active {
+    background: none;
 }
 
 #icon:hover {
