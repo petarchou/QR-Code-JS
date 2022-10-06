@@ -104,11 +104,11 @@ img {
 #icon {
     margin-bottom: 20px;
     transition: ease-in-out .5s;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-#icon:hover, #icon:active, #icon::selection {
-    background: none;
-}
+
 
 
 #icon:hover {
