@@ -118,8 +118,21 @@ img {
     cursor: pointer;
 }
 
-p, .container, .container h1 {
-    animation: ease-in-out 1s;
+p, .main-container, .main-container h1 {
+    animation: slideIn ease-in-out 1s;
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+        opacity: 0
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateX(0);
+        opacity: 1
+    }
 }
 
 @media (hover: hover) {
