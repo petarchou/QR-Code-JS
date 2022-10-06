@@ -110,6 +110,10 @@ img {
     background: none;
 }
 
+#icon::selection {
+    background: none;
+}
+
 #icon:hover {
     transform: scale(1.03);
     opacity: .7;
